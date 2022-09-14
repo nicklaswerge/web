@@ -11,7 +11,7 @@ nav: true
 {% if site.data.team.leaders %}
     {% for person in site.data.team.leaders %}
         {{ person.name }}
-            {% if person.mail %} "hey"
+            {% if person.mail %}
                 {{ person.mail }}
             {% endif %}
             {% if person.webpage %}
@@ -28,7 +28,7 @@ nav: true
     ## Postdoctoral Researchers
     {% for person in site.data.team.postdoctorals %}
         {{ person.name }}
-            {% if person.mail %} "hey"
+            {% if person.mail %}
                 {{ person.mail }}
             {% endif %}
             {% if person.webpage %}
@@ -42,10 +42,11 @@ nav: true
 {% endif %}
 
 
-{% if site.data.team.postdoctorals %}
-    ## Postdoctoral Researchers
+{% if site.data.team.phds %}
+    ## PhD Students
+    {% for person in site.data.team.phds %}
         {{ person.name }}
-            {% if person.mail %} "hey"
+            {% if person.mail %}
                 {{ person.mail }}
             {% endif %}
             {% if person.webpage %}
