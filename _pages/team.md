@@ -10,15 +10,15 @@ nav: true
 
 {% if site.data.team.leaders %}
     {% for person in site.data.team.leaders %}
-        {{person.name}}
-            {% if person.mail %}
-                {{person.mail}}
+        {{ person.name }}
+            {% if person.mail %} "hey"
+                {{ person.mail }}
             {% endif %}
             {% if person.webpage %}
-                {{person.webpage}}
+                {{ person.webpage }}
             {% endif %}
             {% if person.scholar %}
-            {{person.scholar}}
+                {{ person.scholar }}
             {% endif %}
     {% endfor %}
     ---
@@ -27,36 +27,33 @@ nav: true
 {% if site.data.team.postdoctorals %}
     ## Postdoctoral Researchers
     {% for person in site.data.team.postdoctorals %}
-        {{person.name}}
-            {% if person.mail %}
-                {{person.mail}}
+        {{ person.name }}
+            {% if person.mail %} "hey"
+                {{ person.mail }}
             {% endif %}
             {% if person.webpage %}
-                {{person.webpage}}
+                {{ person.webpage }}
             {% endif %}
             {% if person.scholar %}
-            {{person.scholar}}
+                {{ person.scholar }}
             {% endif %}
     {% endfor %}
-
     ---
 {% endif %}
 
 
 {% if site.data.team.postdoctorals %}
     ## Postdoctoral Researchers
-    {% for person in site.data.team.postdoctorals %}
-        {{person.name}}
-            {% if person.mail %}
-                {{person.mail}}
+        {{ person.name }}
+            {% if person.mail %} "hey"
+                {{ person.mail }}
             {% endif %}
             {% if person.webpage %}
-                {{person.webpage}}
+                {{ person.webpage }}
             {% endif %}
             {% if person.scholar %}
-            {{person.scholar}}
+                {{ person.scholar }}
             {% endif %}
     {% endfor %}
-
     ---
 {% endif %}
