@@ -7,11 +7,8 @@ nav: true
 # nav_order: 3
 ---
 
-
 {% if site.data.team.leaders %}
-
     {% for person in site.data.team.leaders %}
-
     <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
     <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
         {% if person.image %}
@@ -49,14 +46,12 @@ nav: true
     </div>
     <hr>
     {% endfor %}
-
     ---
 {% endif %}
 
 {% if site.data.team.postdoctorals %}
     ## Postdoctoral Researchers
     {% for person in site.data.team.postdoctorals %}
-
     <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
     <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
         {% if person.image %}
@@ -94,15 +89,13 @@ nav: true
     </div>
     <hr>
     {% endfor %}
-
     ---
 {% endif %}
 
 
-{% if site.data.team.phds %}
-    ## PhD Students
-    {% for person in site.data.team.phds %}
-
+{% if site.data.team.postdoctorals %}
+    ## Postdoctoral Researchers
+    {% for person in site.data.team.postdoctorals %}
     <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
     <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
         {% if person.image %}
@@ -131,8 +124,6 @@ nav: true
             {% if person.instagram %}
             <a href= "{{person.instagram}}" target="_blank"><i class="fab fa-instagram"></i> </a> <br>
             {% endif %}
-            
-
         </div>
         <div class="col-sm-8">
             <p class="text-justify">{{person.about | markdownify}}</p>
@@ -140,6 +131,5 @@ nav: true
     </div>
     <hr>
     {% endfor %}
-
     ---
 {% endif %}
