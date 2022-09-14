@@ -17,7 +17,12 @@
                 {{- site.last_name -}}
               {%- endif -%}
             {%- else -%}
-              {{- site.title -}}
+              {%- if site.short_name == "blank" -%}
+                {{- site.title -}}
+              {%- endif -%}
+              {%- else -%}
+                {{- site.short_name -}}
+              {%- endif -%}
             {%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
