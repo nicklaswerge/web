@@ -13,7 +13,8 @@ nav: true
 <div class="projects column">
 
   {% assign sorted= site.data.team.leaders | sort: "name" %}
-  {% for member in sorted %}    
+  {% for member_i in sorted %}    
+  {% assign member = member_i %}
 
   <div class="card mb-3 hoverable card-horizontal">
     <div class="row no-gutters ">
@@ -37,7 +38,8 @@ nav: true
 <div class="projects column">
 
   {% assign sorted= site.data.team.phds | sort: "name" %}
-  {% for member in sorted %}    
+  {% for member_i in sorted %}    
+  {% assign member = member_i %}
 
   <div class="card mb-3 hoverable card-horizontal">
     <div class="row no-gutters ">
