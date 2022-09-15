@@ -6,8 +6,8 @@
       </div>
       <div class="team col-sm-8 col-md-9">
         <div class="card-body">
-          {% if include.member.website %}
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          {% if include.member.webpage %}
+            <a href="{{ include.member.webpage }}" target="_blank" rel="noopener noreferrer">
               <h5 class="card-title">{{ include.member.name }}</h5>       
               <p class="card-text">
                 {{ include.member.about }}
