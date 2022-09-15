@@ -6,6 +6,7 @@ description:
 nav: true
 # nav_order: 3
 ---
+<article>
 <header class="post-header">
     <h1 class="post-title">Adaptive Intelligence Lab </h1>
 </header>
@@ -62,3 +63,6 @@ nav: true
         {% endfor %}
     </div>
 {% endif %}
+
+
+</article>
