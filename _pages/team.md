@@ -14,7 +14,7 @@ nav: true
     <div class="projects column">
         {% assign sorted= site.data.team.leaders | sort: "name" %}
         {% for member in sorted %}    
-            {% include team.html mamber=member %}
+            {% include team.html member=member %}
         {% endfor %}
     </div>
 {% endif %}
@@ -24,7 +24,7 @@ nav: true
     <div class="projects column">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
         {% for member in sorted %}    
-            {% include team.html mamber=member %}
+            {% include team.html member=member %}
         {% endfor %}
     </div>
 {% endif %}
@@ -34,7 +34,7 @@ nav: true
     <div class="projects column">
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% for member in sorted %}    
-            {% include team.html mamber=member %}
+            {% include team.html member=member %}
         {% endfor %}
     </div>
     ---
@@ -45,7 +45,7 @@ nav: true
     <div class="projects column">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
         {% for member in sorted %}    
-            {% include team.html mamber=member %}
+            {% include team.html member=member %}
         {% endfor %}
     </div>
     ---
@@ -56,7 +56,7 @@ nav: true
     <div class="projects column">
         {% assign sorted= site.data.team.alumnis | sort: "name" %}
         {% for member in sorted %}    
-            {% include team.html mamber=member %}
+            {% include team.html member=member %}
         {% endfor %}
     </div>
     ---
