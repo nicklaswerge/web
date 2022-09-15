@@ -17,7 +17,6 @@ nav: true
             {% include team.html name=member %}
         {% endfor %}
     </div>
-    ---
 {% endif %}
 
 {% if site.data.team.postdoctorals %}
@@ -28,7 +27,6 @@ nav: true
             {% include team.html name=member %}
         {% endfor %}
     </div>
-    ---
 {% endif %}
 
 {% if site.data.team.phds %}
