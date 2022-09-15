@@ -25,6 +25,21 @@
           {% if include.member.webpage %}
             <a href="{{ include.member.webpage }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>   
           {% endif %}
+          {% if include.member.scholar %}
+            <a href="{{ include.member.scholar }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+          {% endif %}
+          {% if include.member.orcid %}
+            <a href="https://orcid.org/{{ include.member.orcid }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a>
+          {% endif %}
+          {% if include.member.linkedin %}
+            <a href="{{ include.member.linkedin }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          {% endif %}
+          {% if include.member.twitter %}
+            <a href="https://twitter.com/{{ include.member.twitter }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+          {% if include.member.instagram %}
+            <a href="https://instagram.com/{{ include.member.instagram }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          {% endif %}
         </div>
       </div>
     </div>
