@@ -9,7 +9,7 @@ leaders:
     - scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
     - twitter: TheBayesist
     - linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
-    - image: melih_kandemir.png # assets/img/<image>
+    - image: sduadaptiveintelligencelab/assets/img/melih_kandemir.png # <image>
 
 postdoctorals:
   - nicklas_werge:

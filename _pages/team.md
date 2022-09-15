@@ -10,7 +10,7 @@ nav: true
 <article>
 {% if site.data.team.leaders %}
     {% for person in site.data.team.leaders %}
-        {% include team.html %}
+        {% include team.html member=person %}
     {% endfor %}
     ---
 {% endif %}
@@ -18,7 +18,7 @@ nav: true
 {% if site.data.team.postdoctorals %}
     ## Postdoctoral Researchers
     {% for person in site.data.team.postdoctorals %}
-        {% include team.html %}
+        {% include team.html member=person %}
     {% endfor %}
     ---
 {% endif %}
@@ -27,7 +27,7 @@ nav: true
 {% if site.data.team.phds %}
     ## PhD Students
     {% for person in site.data.team.phds %}
-        {% include team.html %}
+        {% include team.html member=person %}
     {% endfor %}
     ---
 {% endif %}

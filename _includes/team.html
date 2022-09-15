@@ -1,21 +1,23 @@
 <div class="card hoverable">
     <div class="row no-gutters">
         <div class="col-sm-4 col-md-3">
-            <img src="/assets/img/melih_kandemir.png" class="card-img img-fluid" alt="Thomas R. Pisanic II, PhD">
+            <img src="{{ include.member.img }}" class="card-img img-fluid" alt="{{ include.member.title }}">
         </div>
         <div class="team col-sm-8 col-md-9">
             <div class="card-body">
-                <h5 class="card-title">Abdullah Akgül, PhD</h5>
+                <h5 class="card-title"> {{ include.member.name }} {% if include.title %}, {{ include.title }}{% endif %}}</h5>
                 <p class="card-text">
-                    Demo.
+                    {{ include.member.about }}
                 </p>
-                
-                <a href="mailto:akgula@itu.edu.tr" class="card-link"><i class="fas fa-envelope"></i></a>      
-                
-                <a href="https://orcid.org/0000-0000-0000-0000" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid"></i></a>
-                
-                <a href="https://twitter.com/aportekila" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                
+                {%- if include.member.mail -%}
+                    <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a>      
+                {%- endif %}
+                {%- if include.member.orcid -%}
+                    <a href="https://orcid.org/{{ include.member.orcid }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid"></i></a>
+                {%- endif %}
+                {%- if include.member.twitter -%}
+                    <a href="https://twitter.com/{{ include.member.twitter}}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                {%- endif %}
             </div>
         </div>
     </div>
