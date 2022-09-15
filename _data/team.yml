@@ -1,72 +1,60 @@
 leaders:
-  - melih_kandemir:
-    - name: Melih Kandemir
-    - title: Associate Professor
-    - about: Melih is an Associate Professor of Machine Learning at the University of Southern Denmark, Department of Mathematics and Computer Science (IMADA). Melih earned his PhD degree from Aalto University in 2013 under the supervision of Prof. Samuel Kaski. He worked as a postdoctoral researcher at Heidelberg University with Prof. Fred Hamprecht and as an assistant professor at Ozyegin University in Istanbul, Turkey. Prior to joining SDU, Melih was leading a research group at Bosch Center for Artificial Intelligence.
-    - mail: kandemir@imada.sdu.dk
-    - orcid: 0000-0001-6293-3656
-    - webpage: https://melihkandemir.github.io/
-    - scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
-    - twitter: TheBayesist
-    - linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
-    - image: sduadaptiveintelligencelab/assets/img/melih_kandemir.png # <image>
+  - name: Melih Kandemir
+    title: Associate Professor
+    about: Melih is an Associate Professor of Machine Learning at the University of Southern Denmark, Department of Mathematics and Computer Science (IMADA). Melih earned his PhD degree from Aalto University in 2013 under the supervision of Prof. Samuel Kaski. He worked as a postdoctoral researcher at Heidelberg University with Prof. Fred Hamprecht and as an assistant professor at Ozyegin University in Istanbul, Turkey. Prior to joining SDU, Melih was leading a research group at Bosch Center for Artificial Intelligence.
+    mail: kandemir@imada.sdu.dk
+    orcid: 0000-0001-6293-3656
+    webpage: https://melihkandemir.github.io/
+    scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
+    twitter: TheBayesist
+    linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
+    image: sduadaptiveintelligencelab/assets/img/melih_kandemir.png # <image>
+
 
 postdoctorals:
-  - nicklas_werge:
-    - name: Nicklas Werge
-    - title: 
-    - about: PAC-Bayesian generalization bounds for optimal control
+  - name: Nicklas Werge
+    title: 
+    about: PAC-Bayesian generalization bounds for optimal control
 
 phds:
-  - andreas_look:
-    - name: Andreas Look
-    - title: 
-    - about: Deterministic Inference of Neural Stochastic Differential Equations
+  - name: Andreas Look
+    title: 
+    about: Deterministic Inference of Neural Stochastic Differential Equations
   
-  - baharesh_tasdighi:
-    - name: Bahareh Tasdighi
-    - title: 
-    - about: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
+  - name: Bahareh Tasdighi
+    title: 
+    about: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
   
-  - hamish_flynn:
-    - name: Hamish Flynn
-    - title: 
-    - about: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
+  - name: Hamish Flynn
+    title: 
+    about: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
   
-  - ugurcan_ozalp:
-    - name: Ugurcan Ozalp
-    - title: 
-    - about: Continual Learning for Adaptive Optimal Control
+  - name: Ugurcan Ozalp
+    title: 
+    about: Continual Learning for Adaptive Optimal Control
 
 
 
 mscs:
-  - abdullah_akgul:
-    - name: Abdullah Akgül
-    - title: 
-    - about: Probabilistic State Space Modeling with Neural Processes
-    - linkedin: https://tr.linkedin.com/in/abdullahakgul70
-    - orcid: 0000-0002-0489-9493
-    - webpage: https://aportekila.github.io/
-    - mail: akgula15@itu.edu.tr
-    - scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
-    - instagram: aportekila
-    - twitter: aportekila
+  - name: Abdullah Akgül
+    title: 
+    about: Probabilistic State Space Modeling with Neural Processes
+    linkedin: https://tr.linkedin.com/in/abdullahakgul70
+    orcid: 0000-0002-0489-9493
+    webpage: https://aportekila.github.io/
+    mail: akgula15@itu.edu.tr
+    scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
+    instagram: aportekila
+    twitter: aportekila
 
-  - christoffer_falk:
-    - name: Christoffer Falk Bøgebjerg
-    - title: 
-    - about:  Modeling Nonlinear Dynamics in Offline Reinforcement Learning
+  - name: Christoffer Falk Bøgebjerg
+    title: 
+    about:  Modeling Nonlinear Dynamics in Offline Reinforcement Learning
   
-  - kenny_kazimirzak:
-    - name: Kenny Kazimirzak Brink
-    - title: 
-    - about: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
+  
+  - name: Kenny Kazimirzak Brink
+    title: 
+    about: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
 
 alumnis:
-  - helle_hansen:
-    - name: Helle Juul Hansen
-
-  
-  
-  
+  - name: Helle Juul Hansen
