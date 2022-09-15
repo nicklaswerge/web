@@ -24,7 +24,7 @@ nav: true
       <div class="team col-sm-8 col-md-9">
         <div class="card-body">
           <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <h5 class="card-title">Abdullah, PhD</h5>       
+            <h5 class="card-title">{{ member.name }}</h5>       
             <p class="card-text">
               demodemo
             </p>
@@ -59,7 +59,7 @@ nav: true
       <div class="team col-sm-8 col-md-9">
         <div class="card-body">
           <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <h5 class="card-title">Abdullah, PhD</h5>       
+            <h5 class="card-title">{{ member.name }}</h5>       
             <p class="card-text">
               demodemo
             </p>
