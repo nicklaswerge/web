@@ -2,7 +2,7 @@
 layout: page
 permalink: /team/
 title: team
-description: Adaptive Intelligence Lab 
+description: 
 nav: true
 # nav_order: 3
 ---
@@ -16,18 +16,28 @@ nav: true
   {% for member_i in sorted %}    
   {% assign member = member_i %}
 
-  <div class="card mb-3 hoverable card-horizontal">
-    <div class="row no-gutters ">
-      <div class="col-md-4">
-        {% if member.img %}
-        <img class="card-img" src="/assets/img/{{ member.img | relative_url }}" alt="{{ member.name }}">
-        {% endif %}
+  <div class="card hoverable">
+    <div class="row no-gutters">
+      <div class="col-sm-4 col-md-3">
+        <img src="/sduadaptiveintelligencelab/assets/img/melih_kandemir.png" class="card-img img-fluid" alt="Leslie M. Cope, PhD">
       </div>
-      <div class="col">
-        <h2 class="card-title">{{ member.name }}</h2>
+      <div class="team col-sm-8 col-md-9">
+        <div class="card-body">
+          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <h5 class="card-title">Abdullah, PhD</h5>       
+            <p class="card-text">
+              demodemo
+            </p>
+          </a>
+          <a href="mailto:akgula15@itu.edu.tr" class="card-link"><i class="fas fa-envelope"></i></a> 
+          <a href="https://www.google.com" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>   
+        </div>
       </div>
     </div>
   </div>
+  <p> </p>
+
+
 
 {% endfor %}
 
@@ -41,18 +51,27 @@ nav: true
   {% for member_i in sorted %}    
   {% assign member = member_i %}
 
-  <div class="card mb-3 hoverable card-horizontal">
-    <div class="row no-gutters ">
-      <div class="col-md-4">
-        {% if member.img %}
-        <img class="card-img" src="/assets/img/{{ member.img | relative_url }}" alt="{{ member.name }}">
-        {% endif %}
+  <div class="card hoverable">
+    <div class="row no-gutters">
+      <div class="col-sm-4 col-md-3">
+        <img src="/sduadaptiveintelligencelab/assets/img/melih_kandemir.png" class="card-img img-fluid" alt="Leslie M. Cope, PhD">
       </div>
-      <div class="col">
-        <h2 class="card-title">{{ member.name }}</h2>
+      <div class="team col-sm-8 col-md-9">
+        <div class="card-body">
+          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <h5 class="card-title">Abdullah, PhD</h5>       
+            <p class="card-text">
+              demodemo
+            </p>
+          </a>
+          <a href="mailto:akgula15@itu.edu.tr" class="card-link"><i class="fas fa-envelope"></i></a> 
+          <a href="https://www.google.com" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>   
+        </div>
       </div>
     </div>
   </div>
+  <p> </p>
+
 
 {% endfor %}
 
