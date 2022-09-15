@@ -12,23 +12,18 @@ nav: true
     {% for person in site.data.team.leaders %}
         {% include team.html member=person %}
     {% endfor %}
-    ---
+
 {% endif %}
 
 {% if site.data.team.postdoctorals %}
-    ## Postdoctoral Researchers
     {% for person in site.data.team.postdoctorals %}
         {% include team.html member=person %}
     {% endfor %}
-    ---
 {% endif %}
 
-
 {% if site.data.team.phds %}
-    ## PhD Students
     {% for person in site.data.team.phds %}
         {% include team.html member=person %}
     {% endfor %}
-    ---
 {% endif %}
 <\article>
