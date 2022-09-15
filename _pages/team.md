@@ -4,8 +4,6 @@ permalink: /team/
 title: team
 description: 
 nav: true
-leaders: site.data.team.leaders
-phds: site.data.team.phds
 # nav_order: 3
 ---
 <header class="post-header">
@@ -14,7 +12,7 @@ phds: site.data.team.phds
 
 <div class="projects column">
 
-  {% assign sorted= page.leaders | sort: "name" %}
+  {% assign sorted= site.data.team.leaders | sort: "name" %}
   {% for member_i in sorted %}    
   {% assign member = member_i %}
 
@@ -49,7 +47,7 @@ phds: site.data.team.phds
 
 <div class="projects column">
 
-  {% assign sorted= page.phds | sort: "name" %}
+  {% assign sorted= site.data.team.phds | sort: "name" %}
   {% for member_i in sorted %}    
   {% assign member = member_i %}
 
