@@ -1,20 +1,27 @@
+<p> </p>
 <div class="card hoverable">
     <div class="row no-gutters">
       <div class="col-sm-4 col-md-3">
-        <img src="/sduadaptiveintelligencelab/assets/img/melih_kandemir.png" class="card-img img-fluid" alt="Leslie M. Cope, PhD">
+        <img src="{{ include.member.img }}" class="card-img img-fluid" alt="{{ include.member.name }}">
       </div>
       <div class="team col-sm-8 col-md-9">
         <div class="card-body">
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <h5 class="card-title">"{{ include.name.name }}"</h5>       
+          {% if include.member.website %}
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <h5 class="card-title">{{ include.member.name }}</h5>       
+              <p class="card-text">
+                {{ include.member.about }}
+              </p>
+            </a>
+          {% else %}
+            <h5 class="card-title">{{ include.member.name }}</h5>       
             <p class="card-text">
-              demodemo
+              {{ include.member.about }}
             </p>
-          </a>
+          {% endif %}
           <a href="mailto:akgula15@itu.edu.tr" class="card-link"><i class="fas fa-envelope"></i></a> 
           <a href="https://www.google.com" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>   
         </div>
       </div>
     </div>
-  </div>
-  <p> </p>
+</div>
