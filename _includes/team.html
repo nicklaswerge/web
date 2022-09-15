@@ -11,13 +11,13 @@
                 </p>
                 {%- if include.member.mail -%}
                     <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a>      
-                {%- endif %}
+                {% endif %}
                 {%- if include.member.orcid -%}
                     <a href="https://orcid.org/{{ include.member.orcid }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid"></i></a>
-                {%- endif %}
+                {% endif %}
                 {%- if include.member.twitter -%}
                     <a href="https://twitter.com/{{ include.member.twitter}}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-                {%- endif %}
+                {% endif %}
             </div>
         </div>
     </div>
