@@ -2,7 +2,7 @@
 <div class="card hoverable">
     <div class="row no-gutters">
       <div class="col-sm-4 col-md-3">
-        <img src="{{ include.member.image }}" class="card-img img-fluid" alt="{{ include.member.name }}">
+        <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}">
       </div>
       <div class="team col-sm-8 col-md-9">
         <div class="card-body">
@@ -19,8 +19,12 @@
               {{ include.member.about }}
             </p>
           {% endif %}
-          <a href="mailto:akgula15@itu.edu.tr" class="card-link"><i class="fas fa-envelope"></i></a> 
-          <a href="https://www.google.com" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>   
+          {% if include.member.mail %}
+            <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a> 
+          {% endif %}
+          {% if include.member.webpage %}
+            <a href="{{ include.member.webpage }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>   
+          {% endif %}
         </div>
       </div>
     </div>
