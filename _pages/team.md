@@ -7,7 +7,7 @@ nav: true
 # nav_order: 3
 ---
 
-
+<article>
 {% if site.data.team.leaders %}
     {% for person in site.data.team.leaders %}
         {% include team.html %}
@@ -31,3 +31,4 @@ nav: true
     {% endfor %}
     ---
 {% endif %}
+<\article>
