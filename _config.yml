@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Adaptive Intelligence Lab # the website title (if blank, full name will be used instead)
-short_name: Adl # the website shortname (for navbar if blank, title will be used instead)
+title: The Adaptive Intelligence Lab # the website title (if blank, full name will be used instead)
+short_name: ADIN Lab # the website shortname (for navbar if blank, title will be used instead)
 first_name: SDU
 middle_name: 
 last_name: Adaptive Intelligence Lab
