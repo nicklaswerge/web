@@ -20,10 +20,10 @@
                     </p>
                 {% endif %}
                 {% if include.member.thesis_title %}
-                    <h6 class="card-title" style="display: inline">Thesis Title:</h6> <p class="card-text"> {{ include.member.thesis_title }} </p> 
+                    <p class="card-title">Thesis Title:</p> <p class="card-text"> {{ include.member.thesis_title }} </p> 
                 {% endif %}
                 {% if include.member.research_areas %}
-                    <h6 class="card-title" style="display: inline">Research Areas:</h6> <p class="card-text"> {{ include.member.research_areas }} </p> 
+                    <p class="card-title">Research Areas:</p> <p class="card-text"> {{ include.member.research_areas }} </p> 
                 {% endif %}
                 {% if include.member.mail %}
                     <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a> 
