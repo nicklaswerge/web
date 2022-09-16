@@ -21,6 +21,9 @@ nav: true
             {% include team.html member=member %}
         {% endfor %}
     </div>
+
+    ---
+
 {% endif %}
 
 
@@ -32,6 +35,9 @@ nav: true
             {% include team.html member=member %}
         {% endfor %}
     </div>
+
+    ---
+
 {% endif %}
 
 
@@ -43,6 +49,9 @@ nav: true
             {% include team.html member=member %}
         {% endfor %}
     </div>
+
+    ---
+
 {% endif %}
 
 
@@ -54,6 +63,9 @@ nav: true
             {% include team.html member=member %}
         {% endfor %}
     </div>
+
+    ---
+
 {% endif %}
 
 
@@ -65,6 +77,9 @@ nav: true
             {% include team.html member=member %}
         {% endfor %}
     </div>
+
+    ---
+
 {% endif %}
 
 
