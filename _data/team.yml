@@ -1,7 +1,7 @@
 leaders:
   - name: Melih Kandemir
     title: Associate Professor
-    about: Melih is an Associate Professor of Machine Learning at the University of Southern Denmark, Department of Mathematics and Computer Science (IMADA). Melih earned his PhD degree from Aalto University in 2013 under the supervision of Prof. Samuel Kaski. He worked as a postdoctoral researcher at Heidelberg University with Prof. Fred Hamprecht and as an assistant professor at Ozyegin University in Istanbul, Turkey. Prior to joining SDU, Melih was leading a research group at Bosch Center for Artificial Intelligence.
+    about: Faculty member at SDU. Member of the ELLIS Society. Has published work on weakly-supervised Gaussian processes, deterministic variational Bayesian neural net inference, and neural stochastic process modeling.
     mail: kandemir@imada.sdu.dk
     orcid: 0000-0001-6293-3656
     webpage: https://melihkandemir.github.io/
@@ -38,7 +38,7 @@ phds:
 mscs:
   - name: Abdullah Akgül
     title: 
-    about: Abdullah Akgül received his B.Sc. degree in Computer Engineering from Istanbul Technical University(ITU) in 2020. Abdullah is currently pursuing his M.Sc. in Computer Engineering at ITU as a research assistant. His main research interests focus on continual learning, deep learning, machine learning, and probabilistic models.
+    about: MSc student at ITU. 
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
@@ -47,15 +47,17 @@ mscs:
     instagram: aportekila
     twitter: aportekila
     image: assets/img/team/abdullah_akgul.jpg
-
+    research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
+    thesis_title: Probabilistic State Space Modeling with Neural Processes
+  
   - name: Christoffer Falk Bøgebjerg
     title: 
     about:  Modeling Nonlinear Dynamics in Offline Reinforcement Learning
   
-  
   - name: Kenny Kazimirzak Brink
     title: 
     about: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
+    image: assets/img/team/kenny_brink.png
 
 alumnis:
   - name: Helle Juul Hansen

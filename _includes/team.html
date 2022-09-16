@@ -19,6 +19,16 @@
                         {{ include.member.about }}
                     </p>
                 {% endif %}
+                {% if include.member.thesis_title %}
+                    <p class="card-text">
+                        <b>Thesis Title: </b>{{ include.member.thesis_title }}
+                    </p> 
+                {% endif %}
+                {% if include.member.research_areas %}
+                    <p class="card-text">
+                        <b>Research Areas: </b>{{ include.member.research_areas }}
+                    </p> 
+                {% endif %}
                 {% if include.member.mail %}
                     <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a> 
                 {% endif %}
