@@ -7,9 +7,9 @@ nav: true
 # nav_order: 3
 ---
 <article>
-<header class="post-header">
+<!-- <header class="post-header">
     <h1 class="post-title">Adaptive Intelligence Lab </h1>
-</header>
+</header> -->
 
 {% if site.data.team.leaders %}
     <br><h2 id="principle-investigator">Principle Investigator</h2>
