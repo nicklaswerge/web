@@ -12,7 +12,7 @@ nav: true
 </header> -->
 
 {% if site.data.team.leaders %}
-    <br><h2 id="principle-investigator">Principle Investigator</h2>
+    <br><h2 id="principal-investigator">Principal Investigator</h2>
     <div class="projects column">
         {% assign sorted= site.data.team.leaders | sort: "name" %}
         {% for member in sorted %}
