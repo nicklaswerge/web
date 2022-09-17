@@ -56,11 +56,14 @@ mscs:
   - name: Christoffer Falk Bøgebjerg
     title: 
     about:  Modeling Nonlinear Dynamics in Offline Reinforcement Learning
+    image: assets/img/team/christoffer_boegebjerg.webp
   
   - name: Kenny Kazimirzak Brink
     title: 
-    about: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
+    about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
     image: assets/img/team/kenny_brink.png
+    mail: chboe17@syudent.sdu.dk
+    thesis_title: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
 
 alumnis:
   - name: Helle Juul Hansen
