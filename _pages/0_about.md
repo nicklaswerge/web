@@ -18,11 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-
-Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
-
-Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+Founded in 2022, we are a brand new lab that exercises basic machine learning research on online, adaptive, and continual reinforcement learning. Our mission is to lift the borders between the training time and the usage time of machine learning algorithms. This way we believe to enable machine learning products as life-long learning agents that perpetually adapt to their users and changing environment conditions throughout their whole life cycle. We define the set of open research questions that hinder real-world use of life-long trainable machine learning artefacts as *the adaptive intelligence problem* and work hard on solving it.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
