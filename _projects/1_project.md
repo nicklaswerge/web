@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Fast Adaptation in Continual Reinforcement Learning
-description: Funded by the Novo Nordisk Foundation
+title: ADAPT4CONTROL
+description: Fast Adaptation Methods for Continual Optimal Control. Funded by the Novo Nordisk Foundation
 img: assets/img/12.jpg
 importance: 1
 category: work
