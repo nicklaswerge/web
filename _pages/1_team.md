@@ -12,7 +12,7 @@ nav: true
 </header>
 
 {% if site.data.team.leaders %}
-    <h2 id="principle-investigator">Principle Investigator</h2>
+    <br><h2 id="principle-investigator">Principle Investigator</h2>
     <div class="projects column">
         {% assign sorted= site.data.team.leaders | sort: "name" %}
         {% for member in sorted %}
@@ -23,7 +23,7 @@ nav: true
 
 
 {% if site.data.team.postdoctorals %}
-    <h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2>
+    <br><h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2>
     <div class="projects column">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
         {% for member in sorted %}
@@ -34,7 +34,7 @@ nav: true
 
 
 {% if site.data.team.phds %}
-    <h2 id="phd-students">PhD Students</h2>
+    <br><h2 id="phd-students">PhD Students</h2>
     <div class="projects column">
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% for member in sorted %}
@@ -45,7 +45,7 @@ nav: true
 
 
 {% if site.data.team.mscs %}
-    <h2 id="msc-students">MSc Students</h2>
+    <br><h2 id="msc-students">MSc Students</h2>
     <div class="projects column">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
         {% for member in sorted %}
@@ -56,7 +56,7 @@ nav: true
 
 
 {% if site.data.team.alumnis %}
-    <h2 id="alumni">Alumni</h2>
+    <br><h2 id="alumni">Alumni</h2>
     <div class="projects column">
         {% assign sorted= site.data.team.alumnis | sort: "name" %}
         {% include team/alumni.html alumnis=sorted %}
