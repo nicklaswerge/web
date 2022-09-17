@@ -24,3 +24,13 @@ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit ame
 
 Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adin-teaser.png" title="ADIN Lab" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <!-- 
+      Caption can be added here!
+    -->
+</div>
