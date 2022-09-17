@@ -60,3 +60,30 @@
   bibtex_show={true},
   abstract={Neural Stochastic Differential Equations (NSDEs) model the drift and diffusion functions of a stochastic process as neural networks. While NSDEs are known to make accurate predictions, their uncertainty quantification properties haven been remained unexplored so far. We report the empirical finding that obtaining well-calibrated uncertainty estimations from NSDEs is computationally prohibitive. As a remedy, we develop a computationally affordable deterministic scheme which accurately approximates the transition kernel, when dynamics is governed by a NSDE. Our method introduces a bidimensional moment matching algorithm: vertical along the neural net layers and horizontal along the time direction, which benefits from an original combination of effective approximations. Our deterministic approximation of the transition kernel is applicable  to both training and prediction. We observe in multiple experiments that the uncertainty calibration quality of our method can be matched by Monte Carlo sampling only after introducing high computation cost. Thanks to the numerical stability of deterministic training, our method also provides improvement in prediction accuracy.}
 }
+
+@inproceedings{lungi2022gpssm,
+  abbr={L4DC},
+  title={Learning Interacting Dynamical Systems with Latent Gaussian Process ODEs},
+  author={Longi, K. and Lindinger, J. and Duennbier, O. and Kandemir, M. and Klami, A. and Rakitsch, B},
+  booktitle={Proceedings of The 4th Annual Learning for Dynamics and Control Conference},
+  year={2022},
+  url={https://proceedings.mlr.press/v168/longi22a/longi22a.pdf},
+  html={https://proceedings.mlr.press/v168/longi22a.html},
+  selected={false},
+  abstract={Gaussian Process state-space models capture complex temporal dependencies in a principled manner by placing a Gaussian Process prior on the transition function. These models have a natural interpretation as discretized stochastic differential equations, but inference for long sequences with fast and slow transitions is difficult. Fast transitions need tight discretizations whereas slow transitions require backpropagating the gradients over long subtrajectories. We propose a novel Gaussian process state-space architecture composed of multiple components, each trained on a different resolution, to model effects on different timescales. The combined model allows traversing time on adaptive scales, providing efficient inference for arbitrarily long sequences with complex dynamics. We benchmark our novel method on semi-synthetic data and on an engine modeling task. In both experiments, our approach compares favorably against its state-of-the-art alternatives that operate on a single time-scale only.},
+  bibtex_show={true}
+}
+
+@article{flynn2022pac,
+  abbr={DMKD},
+  title={PAC-Bayesian lifelong learning for multi-armed bandits},
+  author={Flynn, H. and Reeb, D. and Kandemir, M. and Peters, J.},
+  journal={Data Mining and Knowledge Discovery},
+  year={2022},
+  publisher={Springer},
+  url={https://link.springer.com/article/10.1007/s10618-022-00825-4},
+  html={https://link.springer.com/article/10.1007/s10618-022-00825-4},
+  selected={false},
+  abstract={We present a PAC-Bayesian analysis of lifelong learning. In the lifelong learning problem, a sequence of learning tasks is observed one-at-a-time, and the goal is to transfer information acquired from previous tasks to new learning tasks. We consider the case when each learning task is a multi-armed bandit problem. We derive lower bounds on the expected average reward that would be obtained if a given multi-armed bandit algorithm was run in a new task with a particular prior and for a set number of steps. We propose lifelong learning algorithms that use our new bounds as learning objectives. Our proposed algorithms are evaluated in several lifelong multi-armed bandit problems and are found to perform better than a baseline method that does not use generalisation bounds.},
+  bibtex_show={true}
+}
