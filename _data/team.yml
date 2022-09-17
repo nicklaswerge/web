@@ -14,27 +14,27 @@ leaders:
 postdoctorals:
   - name: Nicklas Werge
     title: 
-    about: PAC-Bayesian generalization bounds for optimal control
+    thesis_title: PAC-Bayesian generalization bounds for optimal control
     image: assets/img/team/nicklas_werge.png # <image>
 
 phds:
   - name: Andreas Look
     title: 
-    about: Deterministic Inference of Neural Stochastic Differential Equations
+    thesis_title: Deterministic Inference of Neural Stochastic Differential Equations
     image: assets/img/team/andreas_look.png # <image>
   
   - name: Bahareh Tasdighi
     title: 
-    about: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
+    thesis_title: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
   
   - name: Hamish Flynn
     title: 
-    about: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
+    thesis_title: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
     image: assets/img/team/hamish_flynn.png # <image>
   
   - name: Ugurcan Ozalp
     title: 
-    about: Continual Learning for Adaptive Optimal Control
+    thesis_title: Continual Learning for Adaptive Optimal Control
 
 
 
@@ -55,12 +55,13 @@ mscs:
   
   - name: Christoffer Falk Bøgebjerg
     title: 
-    about:  Modeling Nonlinear Dynamics in Offline Reinforcement Learning
     image: assets/img/team/christoffer_boegebjerg.png
+    about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
+    thesis_title: Modeling Nonlinear Dynamics in Offline Reinforcement Learning
   
   - name: Kenny Kazimirzak Brink
     title: 
-    about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
+    about: 
     image: assets/img/team/kenny_brink.png
     mail: chboe17@syudent.sdu.dk
     thesis_title: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
