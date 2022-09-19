@@ -24,19 +24,33 @@ phds:
     image: assets/img/team/andreas_look.png # <image>
   
   - name: Bahareh Tasdighi
-    title: 
+    title: PhD student
     thesis_title: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
-  
+    mail: tasdighi@imada.sdu.dk
+    orcid: 0000-0001-9757-5019
+    linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
+    about: PhD student working on PAC-Bayesian boundit algorithms on reinforcement learning
+    researc_areas: Algorithms, Reinforcement Learning, PAC-Bayesian bounds
+    image: assets/img/team/bahar.jpeg
+
+
   - name: Hamish Flynn
     title: 
     thesis_title: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
     image: assets/img/team/hamish_flynn.png # <image>
   
   - name: Ugurcan Ozalp
-    title: 
+    title: PhD student
     thesis_title: Continual Learning for Adaptive Optimal Control
-
-
+    mail: ugo@sdu.dk
+    orcid: 0000-0002-1406-6874
+    webpage: https://ugurcanozalp.medium.com/
+    scholar: https://scholar.google.com/citations?user=xNAC-q0AAAAJ&hl=en&authuser=2
+    linkedin: https://tr.linkedin.com/in/ugurcanozalp
+    instagram: ugurcanozalp
+    about: He is a PhD level researcher working on Continual Learning and its applications on Reinforcement Learning
+    research_areas: Continual Learning, Reinforcement Learning, Optimal Control
+    image: assets/img/team/ugurcan_ozalp.png 
 
 mscs:
   - name: Abdullah Akgül
