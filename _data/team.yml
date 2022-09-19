@@ -39,7 +39,7 @@ phds:
     thesis_title: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
     image: assets/img/team/hamish_flynn.png # <image>
   
-  - name: Ugurcan Ozalp
+  - name: Uğurcan Özalp
     title: PhD student
     thesis_title: Continual Learning for Adaptive Optimal Control
     mail: ugo@sdu.dk
