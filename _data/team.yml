@@ -72,12 +72,13 @@ mscs:
     image: assets/img/team/christoffer_boegebjerg.png
     about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
     thesis_title: Modeling Nonlinear Dynamics in Offline Reinforcement Learning
-  
+    mail: chboe17@student.sdu.dk
+
+
   - name: Kenny Kazimirzak Brink
     title: 
     about: 
     image: assets/img/team/kenny_brink.png
-    mail: chboe17@syudent.sdu.dk
     thesis_title: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
 
 alumnis:
