@@ -17,9 +17,6 @@ invariance?
  * How can optimal interventions be planned? 
  * How can it be theoretically guaranteed that the eventual feedback loop constructs a virtuous cycle?
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/nnflogo.png" title="example image" class="img-fluid rounded z-depth-1" %}
