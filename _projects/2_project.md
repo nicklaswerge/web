@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NeuProWorld
-description: Model-Based RL with Neural SDEs.
+description: Model-based reinforcement learning with neural stochastic differential equations
 img: assets/img/neuproworld.png
 importance: 2
 category: work
