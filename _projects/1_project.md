@@ -7,6 +7,12 @@ importance: 1
 category: work
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/adapt4control.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 The main research question is to set the foundations of fast adaptation in continual learning.
 His hypothesis is that this problem can be solved by capturing information-rich invariant representations
 using tools of causal inference and intervening into the environment to maximize information gain. His
