@@ -13,8 +13,14 @@ leaders:
 
 postdoctorals:
   - name: Nicklas Werge
-    title: 
-    research_areas: PAC-Bayesian generalization bounds for optimal control
+    title: Postdoctoral researcher
+    about: Postdoc working on PAC-Bayesian generalization bounds for adaptive optimal control and online reinforcement learning.
+    research_areas: I am interested in machine learning and statistics for time series, especially reinforcement learning and online learning and stochastic algorithms.
+    mail: werge@sdu.dk
+    orcid: 0000-0001-9906-364X
+    webpage: https://nicklaswerge.github.io/
+    scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/nicklas-werge-925789b0/
     image: assets/img/team/nicklas_werge.png # <image>
 
 phds:
